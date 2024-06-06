@@ -42,6 +42,15 @@ export const getSearchProvider = (
     locale,
     verticalKey: "locations",
     experienceVersion,
+    endpoints: {
+      universalSearch: `https://qa-cdn.yextapis.com/v2/accounts/me/search/query`,
+      verticalSearch: `https://qa-cdn.yextapis.com/v2/accounts/me/search/vertical/query`,
+      questionSubmission: `https://qa-cdn.yextapis.com/v2/accounts/me/createQuestion`,
+      status: "https://answersstatus.pagescdn.com",
+      universalAutocomplete: `https://qa-cdn.yextapis.com/v2/accounts/me/search/autocomplete`,
+      verticalAutocomplete: `https://qa-cdn.yextapis.com/v2/accounts/me/search/vertical/autocomplete`,
+      filterSearch: `https://qa-cdn.yextapis.com/v2/accounts/me/search/filtersearch`,
+    },
     // endpoints: SandboxEndpoints // Add if using a sandbox account
   });
 };

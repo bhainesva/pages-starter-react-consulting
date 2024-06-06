@@ -7,27 +7,6 @@ buildConfiguration:
       - package-lock.json
 livePreviewConfiguration:
   setupCommand: ":"
-siteStream:
-  id: site-stream
-  fields:
-    - id
-    - meta
-    - name
-    - c_facebook
-    - c_youtube
-    - c_twitter
-    - c_linkedIn
-    - c_instagram
-    - c_copyrightMessage
-    - c_footerLinks
-    - c_header
-    - c_brand
-    - c_searchPage.slug
-  localization:
-    locales:
-      - en
-    primary: false
-  entityId: site-entity
 sitemap:
   excludeList:
     - feedback/
